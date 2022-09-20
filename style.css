@@ -12,8 +12,7 @@
 body{
     font-family: var(--manrope);
     color: #fff;
-    margin: 2rem 5rem 0;
-    background-color:rgb(4, 14, 28);
+   
 }
 
 .logo{
@@ -27,6 +26,8 @@ header{
     display: flex;
     align-content: center;
     align-items: center;
+    padding: 2rem 5rem;
+    background-color:rgb(4, 14, 28);
 }
 .nav{
     display: flex;
@@ -57,9 +58,10 @@ header{
 }
 
 .unsect{
-    margin: 2rem 0 0 0;
+    padding: 2rem 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color:#040e1c;
 }
 .unsect svg{
     margin-top: -5rem;
@@ -124,9 +126,14 @@ header{
 
 
 .dosect{
+    padding: 3rem 0rem;
+    background-color:#040e1c;
+}
+.dosection{
+    margin: 3rem 5rem;
+    padding: 5rem 4rem 4rem;
     background: linear-gradient(150deg, rgb(26, 116, 215)-161%, rgb(4,44,84) 90%, rgb(26, 116, 215) 100%);
-    margin: 3rem 0;
-    padding: 4rem 2rem;
+
 }
 
 .p{
@@ -193,6 +200,12 @@ header{
     position: relative;
 }
 
+.troissect{
+    background-color:rgb(4, 14, 28);
+    padding: 1rem 5rem 4rem;
+    margin-top: -5rem;
+}
+
 .date{
     font-weight: 700;
 font-size: 11.649px;
@@ -248,8 +261,8 @@ margin: 2rem;
 
 .quartsect{
     background-color: #031B34;
-    padding: 7rem 7rem 0 7rem;
-    margin: 2rem -7rem 0;
+    padding: 9rem 5rem 0;
+    margin: -1rem 0rem 0;
 }
 .doyou{
     font-size: 62px;
@@ -285,8 +298,7 @@ footer{
     display: grid;
     grid-template-columns: 1.3fr 1fr 1fr 1fr;
     grid-gap: 8rem;
-    padding: 4rem 7rem 0 7rem;
-    margin: 0rem -7rem 0;
+    padding: 4rem 5rem 0;
     line-height: 3rem;
     font-family: 'Poppins';
     font-style: normal;
@@ -312,8 +324,8 @@ footer P:hover{
 }
 .copyright{
     background-color: #031B34;
-    padding: 1rem 7rem 0.5rem;
-    margin: 0 -7rem;
+    padding: 1rem 5rem 0.8rem;
+    /* margin: 0 5rem; */
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
